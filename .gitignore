@@ -1,0 +1,25 @@
+# Compiled Java files
+   *.class
+   
+   # JAR files (don't commit JDBC driver)
+   *.jar
+   
+   # IDE files
+   .idea/
+   .vscode/
+   .eclipse/
+   *.iml
+   
+   # OS files
+   .DS_Store
+   Thumbs.db
+   desktop.ini
+   
+   # Build directories
+   bin/
+   build/
+   out/
+   
+   # Database credentials (NEVER commit!)
+   config.properties
+   credentials.txt
